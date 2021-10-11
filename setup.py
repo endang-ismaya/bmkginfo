@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="bmkginfo",
-    version="0.0.1",
+    version="0.0.2",
     author="Endang Ismaya",
     author_email="endang.ismaya@gmail.com",
     description="BMKGINFO is a Python library for getting information about latest earth quake and wheather forecast in Indonesia base on BMKG | Meteorological, Climatological, and Geophysical Agency Website.",
@@ -22,5 +22,6 @@ setuptools.setup(
         "Development Status :: 5 - Production/Stable",
     ],
     packages=setuptools.find_packages(),
+    install_requires=["requests", "beautifulsoup4"],
     python_requires=">=3.6",
 )
