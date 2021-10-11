@@ -1,6 +1,6 @@
 # BMKGINFO
 
-BMKGINFO is a Python library for getting information about latest earth quake and wheather forecast in Indonesia
+BMKGINFO is a Python library for getting information about latest earth quake and wheather forecast in Indonesia base on BMKG | Meteorological, Climatological, and Geophysical Agency Website.
 
 ## Installation
 
