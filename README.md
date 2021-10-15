@@ -4,7 +4,7 @@ BMKGINFO is a Python library for getting information about latest earth quake an
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install bmkginfo.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install bmkginfogi.
 
 ```bash
 pip install bmkginfo
