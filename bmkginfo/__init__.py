@@ -43,12 +43,15 @@ class WeatherForecast(BmkgInfo):
                     time = wf[0]
                     weather = wf[1]
                     temp = prakicu.find("h2", {"class": "heading-md"})
+                    img = prakicu.find("img")
+                    img_src = self.url + "/" + str(img["src"]).replace(" ", "%20")
 
                     data = {
                         "city": city.text,
                         "hour": str(time.text).replace(u"\xa0", u" "),
                         "wheather": weather.text,
                         "temp": temp.text,
+                        "image": img_src,
                     }
                     prakicu_list.append(data)
 
